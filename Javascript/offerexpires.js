@@ -48,7 +48,7 @@ expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year + ' ');
 return expiryMsg;
 }
 
-today = newDate();  //Put today's date in variable
+today = new Date();  //Put today's date in variable
 elEnds = document.getElementById('offerEnds');  //Get the offerEnds element
 elEnds.innerHTML = offerExpires(today); //Add the expiry message
 
