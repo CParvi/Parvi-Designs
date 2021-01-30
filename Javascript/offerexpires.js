@@ -11,7 +11,7 @@ offerPrice: function() {
 var offerRate = this.roomRate * ((100 - this.discount) / 100);
 return offerRate;
 }
-}
+};
 
 //Write out the hotel name, standard rate, and the special rate
 var hotelName, roomRate, specialRate; //Declare variables
@@ -44,7 +44,7 @@ month = monthNames[weekFromToday.getMonth()];
 year = weekFromToday.getFullYear();
 //Create the message
 expiryMsg = 'Offer expires next ';
-expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year + ' ');
+expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year + ')';
 return expiryMsg;
 }
 
