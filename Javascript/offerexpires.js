@@ -8,7 +8,7 @@ name: 'Park',
 roomRate: 240, // Amount in dollars
 discount: 15, // Percentage discount
 offerPrice: function() {
-var offerRate = this.roomRate = ((100 - this.discount) / 100);
+var offerRate = this.roomRate * ((100 - this.discount) / 100);
 return offerRate;
 }
 }
@@ -36,7 +36,7 @@ var weekFromToday, day, date, month, year, dayNames, monthNames;
 weekFromToday = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
 //Create arrays to hold the names of days/months
 dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-monthNames = ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 //Collect the parts of the date to show on the page
 day = dayNames[weekFromToday.getDay()];
 date = weekFromToday.getDate();
@@ -49,7 +49,7 @@ return expiryMsg;
 }
 
 today = newDate();  //Put today's date in variable
-elEnds = document.getElementbyId('offerEnds');  //Get the offerEnds element
+elEnds = document.getElementById('offerEnds');  //Get the offerEnds element
 elEnds.innerHTML = offerExpires(today); //Add the expiry message
 
 //Finish the immediately invoked function expression
