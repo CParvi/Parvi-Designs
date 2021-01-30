@@ -44,7 +44,7 @@ month = monthNames[weekFromToday.getMonth()];
 year = weekFromToday.getFullYear();
 //Create the message
 expiryMsg = 'Offer expires next ';
-expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year + ')';
+expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year + ' ');
 return expiryMsg;
 }
 
