@@ -20,7 +20,7 @@ hotelName = document.getElementById('hotelName'); //Get elements
 roomRate = document.getElementById('roomRate');
 specialRate = document.getElementById('specialRate');
 
-hotelName.textContent = hotel.name; //Write hotel name
+hotelName.textContent = hotel.Name; //Write hotel name
 roomRate.textContent = '$' + hotel.roomRate.toFixed(2); //Write room rate
 specialRate.textContent = '$' + hotel.offerPrice(); //Write offer price
 
