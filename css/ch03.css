@@ -90,6 +90,7 @@ nav a:hover {
 /* special rate banner/display */
 
 #hotelName {
+  text-decoration: line-through;
   text-align: center; 
   font-size: 120%;
   margin-top: 10px;
