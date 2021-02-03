@@ -117,7 +117,8 @@ nav a:hover {
   float: left;
   padding-top: 10px;}
 
-#specialRate {  
+#specialRate { 
+  text-align: center;
   font-size: 440%;
   color: #060558;
   display: inline-block;
