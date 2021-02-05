@@ -1,0 +1,15 @@
+#blackboard {
+	background-color: #00FFFF;
+	border: 25px solid #00008B;
+	border-radius: 30px;
+	padding: 40px 20px;
+	margin: 0px auto;
+	width: 350px;
+	text-align: center;
+	line-height: 1.5;
+  	display: inline-block;
+  	vertical-align: middle;}
+	
+	body {
+	font-size: 150%;
+	margin: 0px 0px 0px 0px;}
