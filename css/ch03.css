@@ -130,5 +130,32 @@ nav a:hover {
   color: #060558;
   font-size: 75%;}
 
+#page {
+margin-top: 5em;
+  background-color: #6495ED;
+  margin: 10% 30%;
+  border-radius: 8px;
+}
+
+form {
+  padding: 0 60px 65px 60px;}
+
+label {
+  display: block;
+  margin: 8px 0 8px 0;
+  font-size: 24px;}
+
+input[type='text'], input[type='password'], textarea {
+
+  font-size: 24px;
+  width: 30%;
+  padding: 3px 5px;
+  border: 1px solid #999;
+  border-radius: 3px;}
+
+input[type='text']:focus, input[type='password']:focus, textarea:focus {
+  border: 1px solid #fff;
+  background-color: #fff;
+  outline: none;}
 
 
