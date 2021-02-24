@@ -1,0 +1,26 @@
+/**********  ACCORDION **********/
+.accordion, .menu {
+  background-color: #fff;
+  color: #fff;
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+  width: 400px;
+  overflow: auto;}
+
+.accordion li {
+  padding: 0;
+  list-style-type: none;}
+
+.accordion-control {
+  background-color: #0985B4;
+  color: #fff;
+  font-size: .5em;
+  display: block;
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 0.7em;
+  margin: 0;
+  border-top: 1px solid #666;}
+
+.accordion-panel {
+  display: none;}
