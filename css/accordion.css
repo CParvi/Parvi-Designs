@@ -1,11 +1,12 @@
 /**********  ACCORDION **********/
 .accordion, .menu {
-  background-color: #fff;
+  background-color: #44CBEA;
   color: #fff;
   margin: 0 auto;
   padding: 0;
   align-content: center;
   width: 400px;
+  text-align: center;
   overflow: auto;}
 
 .accordion li {
@@ -15,7 +16,7 @@
 .accordion-control {
   background-color: #0985B4;
   color: #fff;
-  font-size: .5em;
+  font-size: .4em;
   display: block;
   width: 100%;
   padding: 0.5em 0.5em 0.5em 0.7em;
@@ -23,4 +24,5 @@
   border-top: 1px solid #666;}
 
 .accordion-panel {
-  display: none;}
+  display: none;
+  font-size: .4em;}
