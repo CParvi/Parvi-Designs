@@ -26,3 +26,7 @@
 .accordion-panel {
   display: none;
   font-size: .4em;}
+
+.page {
+  align: center;
+}
