@@ -55,12 +55,13 @@
                 </div>
             </li>
         </ul>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="Javascript/accordion.js"></script>
+	<div id="newItemButton"><button href="#" id="showForm">new item</button></div>
+	<form id="newItemForm">
+		<input type="text" id="itemDescription" placeholder="Add description..." />
+		<input type="submit" id="addButton" value="add" />
+	</form>
+	<script src="Javascript/jquery.js"></script>
 	<script src="Javascript/jquery-1.11.0.min.js"></script>
-        <script>
-   $('.menu').accordion(500);
-   </script>
 	
 	<!-- Use the footer area to add webpage footer content -->
 	<footer>
