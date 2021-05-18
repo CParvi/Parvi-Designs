@@ -22,7 +22,6 @@ $(document).ready(function(){
                p = `<div class="well">
                
                <span style="margin-left:100px;">${person.name.title}  ${person.name.first} ${person.name.last}</span>
-               <span style="text-transform:italic;">${person.name.title}  ${person.name.first} ${person.name.last}</span>
                <span style="margin-left:100px;">Email: ${person.email}</span>
                </div>`;
                console.log(p);
