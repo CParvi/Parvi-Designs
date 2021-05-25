@@ -27,23 +27,38 @@
 	</nav><br>
 	
 	<!-- Use the main area to add the main content of the webpage -->
-	<div id="page">
+	<section class="page">
 	
-		<div id="page">
-      <ul>
-        <li id="one">Website</li>
-        <li id="two">Logo</li>
-        <li id="three">Advertisement</li>
-        <li id="four">Photo Editing</li>
-      </ul>
-      <div id="newItemButton"><button href="#" id="showForm">new item</button></div>
-      <form id="newItemForm">
-        <input type="text" id="itemDescription" placeholder="Other requests" />
-        <input type="submit" id="add" value="add" />
-      </form>
-    </div>
+		<ul class="accordion">
+            <li>
+                <button class="accordion-control"><h3>Website</h3></button>
+                <div class="accordion-panel">
+                   <p>Need assistance designing or building a website? Look no further! I can help you create your perfect website.</p>
+                </div>
+            </li>
+            <li>
+                <button class="accordion-control"><h3>Logo</h3></button>
+                <div class="accordion-panel">
+                   <p>Having trouble designing your brand? Need assistance creating the right logo for your company? Allow me to design a logo suited to your goals.</p>
+                </div>
+            </li>
+            <li>
+                <button class="accordion-control"><h3>Advertisement</h3></button>
+                <div class="accordion-panel">
+                    <p>Want to get your brand out there? I can help you create the perfect advertisement for your brand to help you get heard.</p>
+                </div>
+            </li>
+            <li>
+                <button class="accordion-control"><h3>Photo Editing</h3></button>
+                <div class="accordion-panel">
+                    <p>Do your photos need some fixing? Allow me to add some magic to your photos to make them look better and more polished than ever before.</p>
+                </div>
+            </li>
+        </ul>
+		</section>
+		
 	<script src="Javascript/jquery-1.11.0.min.js"></script>
-	<script src="Javascript/jquery.js"></script>
+	<script src="Javascript/accordion.js"></script>
 	
 	
 	<!-- Use the footer area to add webpage footer content -->
