@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Trocchi);
+
+
+form {
+  max-width: 600px;
+  margin: 0 auto 0 auto;
+  background-color: #fff;}
+
+/* FORM STYLES */
+legend {
+  font-size: 160%;
+  color: #000;}
+
+label {width: 100%; display: block;}
+label[for="parentsConsent"], label[for="showPwd"], label[for="search"], label[for="print"], label[for="other"], label[for="parents-consent"] {display: inline;}
+label[for="equipmentType"], label[for="model"] {display: inline-block; width: 4em;}
+
+input {
+  border: none;
+  padding: 8px;
+  line-height: 1.2em; 
+  margin-bottom: 1.4em;
+  font-size: 1.2em;}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="color"], input[type="number"] {width: 90%;}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], input[type="date"], input[type="color"], #bio {
+  box-shadow: inset 0 2px 2px #000;
+  outline: 0;}
+
+input[type="submit"], #submit {
+  background-color: #000;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  float: right;
+  margin-right: 1.4em;}
+
+input[type="submit"]:hover, #submit:hover {
+  background-color: #666;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px #000;
+  box-shadow: inset 0 2px 2px #000;}
+
+.register input[type="submit"] {margin: 1em 0 0 0;}
+
+#submit.disabled {background-color: #999;}
+#submit.disabled:hover {
+  background-color: #999;
+  text-shadow: none;
+  box-shadow: none;
+  cursor: not-allowed;}
+
+textarea {
+  width: 70%;
+  height: 5em;
+  clear: left;
+  border: none;}
+
+.hide {display: none;}
+.fail { background-image: url("../img/cross.png"); }
+.pass { background-image: url("../img/tick.png"); }
+.fail, .pass {
+  background-repeat: no-repeat; 
+  background-position: right center;}
