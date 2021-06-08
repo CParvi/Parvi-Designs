@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" href="css/designstyles.css">
 	<link rel="stylesheet" href="css/ch04.css">
+	<link rel="stylesheet" href="css/c13.css">
 	<title>Parvi Designs</title>
 	<meta charset="utf-8">
 </head>
@@ -17,7 +18,9 @@
 	<!-- Use the nav area to add hyperlinks to other pages within the website -->
 	<nav>
 	<a href="index.html">Home</a> &nbsp; &nbsp;
-	<a href="works.html">Works</a> &nbsp; &nbsp;
+	<a href="illustrator.html">Illustrator</a> &nbsp; &nbsp;
+	<a href="photoshop.html">Photoshop</a> &nbsp; &nbsp;
+	<a href="more.html">More</a> &nbsp; &nbsp;
 	<a href="shop.html">Shop</a> &nbsp; &nbsp;
 	<a href="business.html">Business</a> &nbsp; &nbsp;
 	<a href="contact.html">Contact Me</a>
@@ -27,6 +30,30 @@
 	<main>
 		<script src="Javascript/add-content.js"></script>
 		<h2>Freelance design at its best.</h2>
+		
+		 <div class="container login">
+      <form id="how-heard" action="/heard" method="post">
+          <fieldset>
+            <legend>How did you hear of us?</legend>
+
+            <input type="radio" name="heard" value="ad" id="ad" />
+            <label for="search">Advertisement</label><br>
+
+            <input type="radio" name="heard" value="referral" id="referral" />
+            <label for="print">Referral</label><br>
+
+            <input type="radio" name="heard" value="other" id="other" />
+            <label for="other">Other</label><br>
+            <input type="text" name="other-input" id="other-text" />
+  
+            <input id="submit" type="submit" value="submit" />
+          </fieldset>
+        </div><!-- .two-thirds -->
+      </form>
+      <script src="Javascript/jquery-1.11.0.min.js"></script>
+     <script src="Javascript/utilities.js"></script>
+    <script src="Javascript/show-option.js"></script>
+		
 		<section id="page">
 			<h1>Prices</h1>
 			<section id="blackboard"></section>
@@ -42,7 +69,8 @@
 			<li>Photo Edits</li>
 			<li>Simple Animations</li>
 			<li>Graphic Art</li>
-		</ul><br><br><br><br><br>
+		</ul>
+		<br><br><br><br><br>
 		<img src="images/designelements1.png" alt="Purple Rectangle" width="1200" height="100">
 			
 		<p>Whatever artistic or technical needs you have, I can help.</p>
